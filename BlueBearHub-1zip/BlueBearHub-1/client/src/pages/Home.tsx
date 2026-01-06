@@ -1,3 +1,4 @@
+import AIChat from '@/components/AIChat';
 import Header from '@/components/Header';
 import NavigationCard from '@/components/NavigationCard';
 import { 
@@ -84,6 +85,10 @@ export default function Home() {
               {...destination}
             />
           ))}
+        </div>
+
+        <div className="mt-12">
+          <AIChat />
         </div>
 
         <footer className="mt-16 pt-8 border-t text-center">
