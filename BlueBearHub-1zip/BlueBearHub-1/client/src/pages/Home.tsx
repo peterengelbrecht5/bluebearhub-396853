@@ -10,7 +10,8 @@ import {
   ShoppingBag,
   Vote,
   Hammer,
-  Flame
+  Flame,
+  Music
 } from 'lucide-react';
 
 const destinations = [
@@ -53,7 +54,7 @@ const destinations = [
     comingSoon: true,
   },
   {
-    title: 'Bear Market',
+    title: 'Blue Commerce',
     description: 'Your trusted marketplace for quality products and seamless shopping experiences',
     icon: ShoppingBag,
     url: 'https://bear-marketplace-balloo.replit.app/',
@@ -95,6 +96,13 @@ const destinations = [
     url: 'https://example.com/flame',
     iconColor: 'text-primary',
   },
+  {
+    title: 'Blue Entertainment',
+    description: 'A world of digital entertainment, streaming, and creative content at your fingertips',
+    icon: Music,
+    url: 'https://example.com/entertainment',
+    iconColor: 'text-accent',
+  },
 ];
 
 export default function Home() {
@@ -106,6 +114,7 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground" data-testid="text-heading">Welcome
           to
            Blue hub</h2>
+          <p className="text-xl text-muted-foreground italic">The Time is Now & The Time is Blue</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
