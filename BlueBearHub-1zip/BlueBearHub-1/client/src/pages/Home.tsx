@@ -8,7 +8,9 @@ import {
   Zap, 
   Activity,
   ShoppingBag,
-  Vote
+  Vote,
+  Hammer,
+  Flame
 } from 'lucide-react';
 
 const destinations = [
@@ -77,6 +79,20 @@ const destinations = [
     description: 'Deep insights and data-driven analytics to help your business grow and thrive',
     icon: Activity,
     url: 'https://example.com/analytics',
+    iconColor: 'text-primary',
+  },
+  {
+    title: 'Blue Build',
+    description: 'Construction and infrastructure development solutions for sustainable growth',
+    icon: Hammer,
+    url: 'https://example.com/build',
+    iconColor: 'text-accent',
+  },
+  {
+    title: 'Blue Flame',
+    description: 'Innovative heating and energy solutions for industrial and residential use',
+    icon: Flame,
+    url: 'https://example.com/flame',
     iconColor: 'text-primary',
   },
 ];
