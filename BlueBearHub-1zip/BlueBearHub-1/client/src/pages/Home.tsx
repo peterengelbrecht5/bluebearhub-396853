@@ -65,6 +65,20 @@ const destinations = [
     iconColor: 'text-primary',
     comingSoon: true,
   },
+  {
+    title: 'Blue AI',
+    description: 'Advanced artificial intelligence solutions for business automation and intelligent decision-making',
+    icon: Zap,
+    url: 'https://example.com/ai',
+    iconColor: 'text-accent',
+  },
+  {
+    title: 'Blue Analytics',
+    description: 'Deep insights and data-driven analytics to help your business grow and thrive',
+    icon: Activity,
+    url: 'https://example.com/analytics',
+    iconColor: 'text-primary',
+  },
 ];
 
 export default function Home() {
